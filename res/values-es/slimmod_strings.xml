@@ -4,5 +4,24 @@
     <!-- Partition Info -->
     <string name="partition_info_title">Información de particiones</string>
     <string name="partition_info_summary">Muestra información de las particiones del dispositivo</string>
-
+ 
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Tráfico de red</string>
+    <string name="show_network_traffic_state">Monitor de tráfico en barra de estado</string>
+    <string name="network_traffic_summary">Habilitar varias opciones de tráfico de red en la barra de estado</string>
+    <string name="show_network_traffic_unit">Mostrar unidad</string>
+    <string name="show_network_traffic_frequency">Intervalo de actualización</string>
+    <string name="show_network_traffic_disable">Deshabilitado</string>
+    <string name="show_network_traffic_up">Salida</string>
+    <string name="show_network_traffic_down">Entrada</string>
+    <string name="show_network_traffic_all">Entrada y Salida</string>
+    <string name="show_network_traffic_bit">Bits por segundo</string>
+    <string name="show_network_traffic_byte">Bytes por segundo</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto ocultar</string>
+    <string name="network_traffic_autohide_summary">Oculta el monitor de trádico cuando no hay actividad</string>
+    <string name="network_traffic_autohide_threshold">Umbral de inactividad</string>
 </resources>
