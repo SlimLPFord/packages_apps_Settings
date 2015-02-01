@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Partition Info -->
+    <string name="partition_info_title">Información de particiones</string>
+    <string name="partition_info_summary">Muestra información de las particiones del dispositivo</string>
+
+</resources>
