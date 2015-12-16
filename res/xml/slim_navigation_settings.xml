@@ -34,9 +34,7 @@
         android:fragment="com.android.settings.slim.PieControl"
         android:title="@string/pie_control_title" />
 
-    </PreferenceScreen>
-    
-<!-- DeviceHandler device specific screen off gesture settings -->
+    <!-- DeviceHandler device specific screen off gesture settings -->
     <Preference
         android:key="screen_off_gesture_settings"
         android:title="@string/screen_off_gesture_settings_title">
@@ -45,7 +43,7 @@
                 android:targetPackage="com.slim.device"
                 android:targetClass="com.slim.device.settings.ScreenOffGestureSettings" />
     </Preference>
-    
+
 <PreferenceScreen
         android:key="navbar_targets_settings"
         android:fragment="com.android.settings.slim.dslv.ActionListViewSettings"
@@ -59,3 +57,4 @@
             <extra android:name="fragment" android:value="com.android.settings.slim.fragments.PowerMenuFragment" />
     </PreferenceScreen>
 
+</PreferenceScreen>    
