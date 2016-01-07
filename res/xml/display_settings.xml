@@ -122,16 +122,12 @@
                     android:title="@string/proximity_wake_title"
                     android:summary="@string/proximity_wake_summary"
                     android:defaultValue="true" />
-            <SwitchPreference
+
+            <com.android.settings.slim.SystemSettingSwitchPreference
                      android:key="double_tap_sleep_anywhere"
                      android:title="@string/double_tap_sleep_anywhere_title"
                      android:summary="@string/double_tap_sleep_anywhere_summary"
                      android:defaultValue="true" />
-           
-            <com.android.settings.slim.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_anywhere"
-            android:title="@string/double_tap_sleep_anywhere_title"
-            android:summary="@string/double_tap_sleep_anywhere_summary" />
         </PreferenceCategory>
 
 
