@@ -266,8 +266,8 @@
         <!-- SuperSU -->
         <dashboard-tile
             android:id="@+id/supersu_settings"
-            android:icon="@drawable/ic_settings_supersu"
-            android:title="@string/supersu_title">
+            android:title="@string/supersu_title"
+            android:icon="@drawable/ic_settings_supersu">
             <intent
                 android:action="android.intent.action.MAIN"
                 android:targetPackage="eu.chainfire.supersu"
